@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+
+    background-color: hsl(0, 0%, 95%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 905px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 8px;
+
+    overflow: hidden;
+}
+
+main .car-section:nth-child(1) {
+    background-color: hsl(31, 77%, 52%);
+}
+
+main .car-section:nth-child(2) {
+    background-color: hsl(184, 100%, 22%);
+}
+
+main .car-section:nth-child(3) {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.car-section {
+    width: 33.33%;
+    padding: 40px;
+}
+
+.car-section .car-details {
+    margin-bottom:  70px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.car-section .car-details img {
+    width: 65px;
+}
+
+.car-section .car-details h1 {
+
+    font-size: 35px;
+    font-family: "Big Shoulders", sans-serif;
+    text-transform: uppercase;
+
+    color: hsl(0, 0%, 95%);
+}
+
+.car-section .car-details p {
+    width: 95%;
+    line-height: 1.5;
+    color: hsla(0, 0%, 100%, 0.75);
+
+}
+
+.car-section .learn-more-btn {
+    width: 145px;
+    padding: 15px;
+
+    font-weight: 500;;
+
+    border: none;
+    border-radius: 25px;
+}
+
+.car-section:nth-child(1) .learn-more-btn {
+    color: hsl(31, 77%, 52%);
+}
+
+.car-section:nth-child(2) .learn-more-btn {
+    color: hsl(184, 100%, 22%);
+}
+
+.car-section:nth-child(3) .learn-more-btn {
+    color: hsl(179, 100%, 13%);
+}
+
+
+@media (max-width: 375px) {
+    main {
+        width: 310px;
+        flex-direction: column;
+    }
+
+    .car-section {
+        width: 100%;
+    }
+
+    
+    .car-section .car-details {
+        margin-bottom:  20px;
+    }
+
+}
