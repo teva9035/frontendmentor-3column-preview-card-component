@@ -43,15 +43,15 @@ main .car-section:nth-child(3) {
 
 .car-section {
     width: 33.33%;
-    padding: 40px;
+    padding: 50px;
 }
 
 .car-section .car-details {
-    margin-bottom:  70px;
+    margin-bottom:  80px;
 
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 28px;
 }
 
 .car-section .car-details img {
@@ -68,7 +68,6 @@ main .car-section:nth-child(3) {
 }
 
 .car-section .car-details p {
-    width: 95%;
     line-height: 1.5;
     color: hsla(0, 0%, 100%, 0.75);
 
